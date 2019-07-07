@@ -31,6 +31,10 @@ ALLOWED_HOSTS = ['ywh18.cn']
 # Application definition
 
 INSTALLED_APPS = [
+    'blog',
+    'config',
+    'comment',
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
